@@ -1,0 +1,112 @@
+body{
+    margin: 0 0;
+
+}
+.cabecalho {
+    background-color: rgb(32, 89, 214);
+    height: 30px;
+    text-align: center;
+}
+
+.inicial {
+    background-image: linear-gradient(rgba(0, 150, 255, 0.4),rgba(0, 150, 255, 0.2)), url("../images/academia.jpeg");
+    height: 400px;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+}
+
+.sobre-nos {
+    background-color: black;
+    color: white;
+    background-size: 100%;
+    background-position: center;
+    height: 300px;
+}
+
+.nossos-servicos {
+    background-color: green;
+    background-size: 100%;
+    height: 400px;
+}
+
+/* Sessão de texto */
+.text1 {
+    text-align: center;
+    color: black;
+    border: 100px 100px;
+    position: absolute;
+    top: 20%;
+    bottom: 20%;
+    left: 25%;
+    right: 25%;
+}
+
+.text2 {
+    text-align: center;
+    color: black;
+    border: 100px 100px;
+    position: absolute;
+    top: 40%;
+    left: 25%;
+    right: 25%;
+}
+
+.sn1 {
+    text-align: center;
+    color: white;
+    position: relative;
+    border: 100px 100px;
+    top: 25%;
+    left: -25%;
+    right: 40%;
+}
+
+.sn2 {
+    text-align: left;
+    color: white;
+    position: absolute;
+    border: 100px 100px;
+    top: 100%;
+    left: 20%;
+    right: 55%;
+}
+
+.ns{
+    color: white;
+    border: 100px 100px;
+    position: relative;
+    right: 50%;
+    left: 42%;
+    top: 8%;
+}
+
+/* Imagens */
+.luva {
+    width: 100%;
+    max-width: 400px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 20px;
+    margin: auto;
+}
+
+.galeria {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 16px;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px 10px;
+}
+
+.galeria img {
+    width: 100%;
+    max-width: 250px;
+    height: 240px;
+    max-height: 300px;
+    border-radius: 15px;
+    object-fit:cover;
+  }
