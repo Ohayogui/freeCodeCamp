@@ -194,8 +194,15 @@
     padding: 0px;
 }
 
-.img-comentario {
-    background-size: 100%;
-    height: 500px;
+.boxer {
+    width: 100%;
+    height: 410px;
+    object-fit: cover;
+    margin: none;
+}
+
+.allbox {
+    width: 100%;
+    display: flex;
 }
 /* IMAGENS-IMAGENS-IMAGENS-IMAGENS-IMAGENS-IMAGENS-IMAGENS-IMAGENS-IMAGENS-IMAGENS-IMAGENS */
