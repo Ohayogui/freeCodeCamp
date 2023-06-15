@@ -4,15 +4,24 @@
     text-align: center;
 }
 
+.ini {
+    display: flex;
+}
+
 .inicial {
     background-image: linear-gradient(rgba(0, 150, 255, 0.4),rgba(0, 150, 255, 0.2)), url("../images/academia.jpeg");
     height: 400px;
     background-repeat: no-repeat;
     background-size: 100%;
     background-position: center;
+    text-align: center;
+    padding-top: 0;
+    padding-right: 100px;
+    padding-left: 0;
+    width: auto;
 }
 
-.sobre{
+.sobre {
     display: flex;
 }
 
@@ -23,79 +32,68 @@
     background-position: center;
     height: 300px;
     text-align: justify;
-    padding-top: 0px;
-    padding-right: 70px;
-    padding-left: 100px;
+    padding-top: 0;
+    padding-right: 90px;
+    padding-left: 200px;
     width: 70%;
 }
 
-.nossos{
+.ns{
     display: flex;
-    flex-direction: column;
 }
 
-.nossos-servicos {
+.nossos {
     background-color: green;
     background-size: 100%;
-    height: 400px;
+    width: 100%;
+    color: white;
 }
 
-.all{
+.all {
     display: flex;
     flex-direction: column;
 }
 
-.comentario{
+.comentario {
     background: black;
     background-size: 100%;
     height: 200px;
-    color: white
+    color: white;
 }
 
-.img-comentario{
-    background-color: white;
-    background-size: 100%;
-    height: 500px;
-}
-
-.sete{
+.sete {
     background: black;
     background-size: 100%;
     height: 200px;
 }
 
-.rodape{
+.rodape {
     background-color: rgb(32, 89, 214);
     height: 30px;
     text-align: center;
 }
 
-/* Sessão de texto */
+/* TEXT-TEXT-TEXT-TEXT-TEXT-TEXT-TEXT-TEXT-TEXT-TEXT-TEXT-TEXT-TEXT-TEXT-TEXT-TEXT */
 .text1 {
     text-align: center;
     color: black;
     border: 100px 100px;
-    position: absolute;
-    top: 20%;
-    bottom: 20%;
-    left: 25%;
-    right: 25%;
+    padding-top: 100px;
 }
 
 .text2 {
     text-align: center;
     color: black;
     border: 100px 100px;
-    position: absolute;
-    top: 40%;
-    left: 25%;
-    right: 25%;
+    padding-top: 30px;
+    text-align: justify, center;
 }
 
 .sn1 {
     text-align: justify;
     color: white;
     box-sizing: border-box;
+    padding-top: 50px;
 }
 
 .sn2 {
@@ -104,16 +102,43 @@
     box-sizing: border-box;
 }
 
-.ns{
-    color: white;
-    border: 100px 100px;
-    position: relative;
-    right: 50%;
-    left: 42%;
-    top: 8%;
+.img1 h1 {
+    font-size: 20px;
+    text-align: center;
 }
 
-/* Imagens */
+.img1 p {
+    font-size: 15px;
+    text-align: center;
+}
+
+.img2 h1 {
+    font-size: 20px;
+    text-align: center;
+}
+
+.img2 p {
+    font-size: 15px;
+    text-align: center;
+}
+
+.img3 h1 {
+    font-size: 20px;
+    text-align: center;
+}
+
+.img3 p {
+    font-size: 15px;
+    text-align: center;
+}
+
+.tn{
+    text-align: center;
+    padding-bottom: 0px;
+}
+/* TEXT-TEXT-TEXT-TEXT-TEXT-TEXT-TEXT-TEXT-TEXT-TEXT-TEXT-TEXT-TEXT-TEXT-TEXT-TEXT */
+
+/* IMAGENS-IMAGENS-IMAGENS-IMAGENS-IMAGENS-IMAGENS-IMAGENS-IMAGENS-IMAGENS-IMAGENS */
 .luva {
     width: 100%;
     max-width: 400px;
@@ -123,7 +148,7 @@
     margin: auto;
 }
 
-.imgluva{
+.imgluva {
     background-color: black;
     width: 100%;
     padding-top: 50px;
@@ -137,18 +162,40 @@
     gap: 16px;
     max-width: 1200px;
     margin: 0 auto;
-    padding: 20px 10px;
+    padding: 10px 10px;
 }
 
 .galeria img {
     width: 100%;
-    max-width: 250px;
+    max-width: 350px;
     height: 240px;
     max-height: 300px;
     border-radius: 15px;
-    object-fit:cover;
-  }
+    object-fit: cover;
+    padding-top: 0px;
+}
 
-  .img-comentario{
-    display: flex;
-  }
+.img1{
+    width: 250px;
+    height: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.img2{
+    width: 250px;
+    height: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.img3{
+    width: 250px;
+    height: 370px;
+    padding: 0px;
+}
+
+.img-comentario {
+    background-size: 100%;
+    height: 500px;
+}
+/* IMAGENS-IMAGENS-IMAGENS-IMAGENS-IMAGENS-IMAGENS-IMAGENS-IMAGENS-IMAGENS-IMAGENS-IMAGENS */
