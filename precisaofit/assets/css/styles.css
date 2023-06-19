@@ -327,4 +327,10 @@ a{
     width: 100%;
     display: flex;
 }
+
+
+.splide__slide img {
+    width: 100%;
+    height: auto;
+}
 /* IMAGENS-IMAGENS-IMAGENS-IMAGENS-IMAGENS-IMAGENS-IMAGENS-IMAGENS-IMAGENS-IMAGENS-IMAGENS */
