@@ -215,7 +215,7 @@ form {
     padding-top: 30px;
     padding-right: 0;
     padding-left: 120px;
-    width: 50%;
+    width: 100%;
     box-sizing: border-box;
 }
 
@@ -256,7 +256,6 @@ a{
 .rodape p{
     margin-top: 22px;
 }
-
 
 /* TEXT-TEXT-TEXT-TEXT-TEXT-TEXT-TEXT-TEXT-TEXT-TEXT-TEXT-TEXT-TEXT-TEXT-TEXT-TEXT */
 
@@ -334,3 +333,4 @@ a{
     height: auto;
 }
 /* IMAGENS-IMAGENS-IMAGENS-IMAGENS-IMAGENS-IMAGENS-IMAGENS-IMAGENS-IMAGENS-IMAGENS-IMAGENS */
+
